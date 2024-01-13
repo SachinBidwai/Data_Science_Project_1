@@ -1,5 +1,3 @@
-
-
 # Common constants
 TARGET_COLUMN = 'Churn'
 TRAIN_PIPELINE_NAME = 'train_pipeline'
