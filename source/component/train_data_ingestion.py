@@ -22,7 +22,7 @@ class DataIngestion:
 
             dir_path = os.path.dirname(self.train_config.feature_store_dir_path)
             os.makedirs(dir_path, exist_ok=True)
-            data_to_csv(self.train_config.feature_store_dir_path, index=False)
+            data.to_csv(self.train_config.feature_store_dir_path, index=False)
 
             logging.info("complete: Data load from mongoDB")
 
