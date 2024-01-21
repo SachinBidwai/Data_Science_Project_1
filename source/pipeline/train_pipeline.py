@@ -3,6 +3,7 @@ from source.entity.config_entity import TrainingPipelineConfig
 
 
 class TrainPipeline:
+
     def __init__(self, global_timestamp):
         self.train_config = TrainingPipelineConfig(global_timestamp)
 
